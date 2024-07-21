@@ -30,7 +30,7 @@ body {
 /* Header */
 
 #logo_header {
-    width: 13vw;
+    width: 15vw;
 }
 
 h1.header {
@@ -43,15 +43,16 @@ h1.header {
 /* Corpo */
 
 h2.corpo {
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 .corpo_img {
     width: 50vw;
     float: left;
-    margin: 1%;
+    margin-right: 2.5%;
 }
 
 p.corpo {
