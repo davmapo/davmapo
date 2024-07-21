@@ -30,7 +30,7 @@ body {
 /* Header */
 
 #logo_header {
-    width: 10vw;
+    width: 13vw;
 }
 
 h1.header {
@@ -68,13 +68,13 @@ p.corpo {
 /*Tabelle*/
 
 td.left {
-    border-left: 2px solid whitesmoke;
-    padding-left: 10px;
+    border-left: 1px solid whitesmoke;
+    padding-left: 20px;
 }
 
 td.right {
     border-right: 0px solid whitesmoke;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 td.text {
