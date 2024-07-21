@@ -1,5 +1,5 @@
 body {
-    margin: 3%
+    margin: 3%;
 }
 
 /* Parti principali:
@@ -10,7 +10,7 @@ body {
 
 #header {
     background-color: cadetblue;
-    color: white;
+    color: whitesmoke;
     padding: 1%;
     border-radius: 10px;
 }
@@ -23,18 +23,18 @@ body {
 #footer {
     clear:both;
     background-color: cadetblue;
-    color: white;
-    padding: 1%;
+    color: whitesmoke;
     border-radius: 10px;
 }
 
 /* Header */
 
 #logo_header {
-    width: 15vw;
+    width: 10vw;
 }
 
 h1.header {
+    
     font-size: 3vw;
     text-transform: uppercase;
     text-align: center;
@@ -57,4 +57,28 @@ h2.corpo {
 p.corpo {
     font-size: 1vm;
     text-align: justify;
+}
+
+/* Footer */
+
+#logo_footer {
+    width: 10vw;
+}
+
+/*Tabelle*/
+
+td.left {
+    border-left: 2px solid whitesmoke;
+    padding-left: 10px;
+}
+
+td.right {
+    border-right: 0px solid whitesmoke;
+    padding-right: 10px;
+}
+
+td.text {
+    font-size: 2vw;
+    text-transform: uppercase;
+    font: bold;
 }
