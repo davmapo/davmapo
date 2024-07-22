@@ -43,20 +43,25 @@ h1.header {
 /* Corpo */
 
 h2.corpo {
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 3%;
 }
 
+.corpo_fig {
+    text-align: center;
+}
 .corpo_img {
-    width: 50vw;
-    float: left;
-    margin-right: 2.5%;
+    width: 30vw;
+}
+
+.corpo_caption {
+    font-size: 1vw
 }
 
 p.corpo {
-    font-size: 1vm;
+    font-size: 2vw;
     text-align: justify;
 }
 
