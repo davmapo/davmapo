@@ -39,7 +39,7 @@ body {
 h1.header {
     text-transform: uppercase;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2.7vw;
 }
 
 /* Corpo */
@@ -48,7 +48,7 @@ h1.corpo {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 3%;
-    font-size: 2.5vw;
+    font-size: 2.7vw;
 }
 
 .corpo_fig {
@@ -68,7 +68,8 @@ h1.corpo {
 }
 
 p.corpo {
-    text-align: justify; 
+    text-align: justify;
+    font-size: 1.5vw 
 }
 
 /*Tabelle*/
