@@ -1,5 +1,7 @@
 body {
-    margin: 3%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Parti principali:
@@ -30,61 +32,63 @@ body {
 /* Header */
 
 #logo_header {
-    width: 15vw;
+    max-width: 35%;
+    min-width: 20%;
+    width: auto;
 }
 
 h1.header {
-    
-    font-size: 3vw;
     text-transform: uppercase;
     text-align: center;
+    font-size: 2vw;
 }
 
 /* Corpo */
 
-h2.corpo {
-    font-size: 3vw;
+h1.corpo {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 3%;
+    font-size: 2vw;
 }
 
 .corpo_fig {
     text-align: center;
 }
 .corpo_img {
-    width: 30vw;
+    max-width: 100%;
+    max-height: 750px;
 }
 
 .corpo_caption {
-    font-size: 1vw
+    font-size:75%;
+    max-width:470px;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: italic;
 }
 
 p.corpo {
-    font-size: 2vw;
-    text-align: justify;
-}
-
-/* Footer */
-
-#logo_footer {
-    width: 10vw;
+    text-align: justify; 
 }
 
 /*Tabelle*/
 
-td.left {
+td.right {
     border-left: 1px solid whitesmoke;
-    padding-left: 20px;
+    text-align: left;
+    width: 50%;
+    padding-left: 2%;
 }
 
-td.right {
+td.left {
     border-right: 0px solid whitesmoke;
-    padding-right: 20px;
+    text-align: right;
+    width: 50%;
+    padding-right: 2%;
 }
 
 td.text {
-    font-size: 2vw;
     text-transform: uppercase;
     font: bold;
 }
