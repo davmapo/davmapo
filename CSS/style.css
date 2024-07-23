@@ -76,20 +76,16 @@ p.corpo {
 
 td.right {
     border-left: 1px solid whitesmoke;
-    /*text-align: left;*/
     width: 50%;
-    /*padding-left: 5%;*/
 }
 
 td.left {
     border-right: 0px solid whitesmoke;
-    /*text-align: right;*/
     width: 50%;
-    /*padding-right: 5%;*/
 }
 
 p.text_tab {
     text-transform:uppercase;
     font-weight:bold;
-    font-size: 3vh
+    font-size: 2vmax;
 }
