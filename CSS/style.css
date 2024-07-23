@@ -69,7 +69,8 @@ h2.corpo {
 }
 
 .corpo_img_2 {
-    max-width: 30%
+    max-width: 30%;
+    width: 100%;
 }
 
 .corpo_caption {
