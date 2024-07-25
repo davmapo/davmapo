@@ -1,105 +1,88 @@
 body {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+    margin: 0;
 }
-
-/* Parti principali:
-    - header
-    - corpo
-    - footer
-*/
 
 #header {
-    background-color: cadetblue;
-    color: whitesmoke;
-    padding: 1%;
-    border-radius: 10px;
+    background-color:white;
+    color: black;
 }
 
-#corpo {
-    color: rgb(97, 97, 97);
-    padding: 1%;
-}
-
-#footer {
-    clear:both;
-    background-color: cadetblue;
-    color: whitesmoke;
-    border-radius: 10px;
-}
-
-/* Header */
-
-#logo_header {
-    max-width: 50%;
+#logo-header{
     min-width: 100px;
+    max-width:50%;
+    margin-right: 2%;
 }
 
-h1.header {
+#h1-header{
     text-transform: uppercase;
-    text-align: center;
-    font-size: 2.5vmax;
+    font-size: 2vmax;
+    margin-left: 2%;
 }
 
-/* Corpo */
-
-h1.corpo {
-    text-transform: uppercase;
+.td-header{
+    padding: 2%;
     text-align: center;
-    margin-bottom: 3%;
-    font-size: 2.5vmax;
 }
 
-h2.corpo {
-    text-transform: uppercase;
+#section1 {
+    background-color:cadetblue;
+    color:white;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#h1-sec1{
     text-align: center;
-    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-size: 2vmax;
+    padding: 1%;
+    margin-top: 0;
+}
+
+#img-sec1{
+    width: 23%;
+    min-width: 100px;
+    text-align: center;
+    float: left;
+    padding: 2%;
+    padding-top: 0%;
+    vertical-align: center;
+}
+
+.corpo-sec1{
+    text-align: justify;
+    margin-top: 0;
+}
+
+#section2 {
+    background-color:darkgrey;
+    color:white;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#h1-sec2{
+    text-align: center;
+    text-transform: uppercase;
     font-size: 2vmax;
 }
 
-.corpo_fig {
+.corpo-sec2{
+    text-align: justify;
+    margin-top: 0;
+}
+
+#fig-sec2 {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
-.corpo_img {
-    max-width: 100%;
-    max-height: 750px;
-}
 
-.corpo_img_2 {
+.fig-sec2-2 {
     width: 100%;
     max-width: 400px;
-}
-
-.corpo_caption {
-    font-size:75%;
-    max-width:470px;
-    margin-right: auto;
-    margin-left: auto;
-    font-style: italic;
-}
-
-p.corpo {
-    text-align: justify;
-    font-size: 2vmax 
-}
-
-/*Tabelle*/
-
-td.right {
-    border-left: 1px solid whitesmoke;
-    width: 50%;
-}
-
-td.left {
-    border-right: 0px solid whitesmoke;
-    width: 50%;
-}
-
-p.text_tab {
-    text-transform:uppercase;
-    font-weight:bold;
-    font-size: 1.7vmax;
+    vertical-align: middle;
 }
