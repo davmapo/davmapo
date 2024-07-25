@@ -11,40 +11,30 @@ var img06 = document.getElementById("myImg06");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
+function clicca(immagine){
+  var img = immagine;
+  modal.style.display = "block";
+  modalImg.src = img.src;
+  captionText.innerHTML = img.alt;
+}
+
 img01.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  clicca(img01);
 }
-
 img02.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  clicca(img02);
 }
-
 img03.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  clicca(img03);
 }
-
 img04.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  clicca(img04);
 }
-
 img05.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  clicca(img05);
 }
-
 img06.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  clicca(img06);
 }
 
 // Get the <span> element that closes the modal
